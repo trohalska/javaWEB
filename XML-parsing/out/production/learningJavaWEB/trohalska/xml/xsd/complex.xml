@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:book xmlns:tns="http://trohalska.xml/xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://trohalska.xml/xsd complex.xsd " id="5">
+	<tns:name>token</tns:name>
+	<tns:genre>horror</tns:genre>
+	<tns:from></tns:from>
+</tns:book>
+<!--<price priceec="ua">126</price>-->

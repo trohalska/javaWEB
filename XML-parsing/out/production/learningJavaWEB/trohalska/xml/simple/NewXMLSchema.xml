@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="NewXMLSchema.xsd">
+	<id>5</id>
+	<hexString>0x456A</hexString>
+	<name>gym</name>
+	<genre>horror</genre>
+	<genre>love novell</genre>
+	<genre>love novell</genre>
+	<genre>action</genre>
+	<address>
+		<to></to>
+		<copy></copy>
+	</address>
+</book>

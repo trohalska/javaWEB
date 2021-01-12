@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="book">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id">
+					<xs:simpleType>
+						<xs:restriction base="xs:int">
+							<xs:minInclusive value="0" />
+							<xs:maxInclusive value="100" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="hexString">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="0[xX][\dA-F]+" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="name" type="xs:token" />
+				<xs:element name="genre" maxOccurs="unbounded">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="action" />
+							<xs:enumeration value="horror" />
+							<xs:enumeration value="love novell" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="address">
+					<xs:complexType>
+						<xs:choice>
+							<xs:element name="from" type="xs:token" minOccurs="0" />
+							<xs:sequence>
+								<xs:element name="to" type="xs:token" />
+								<xs:element name="copy" type="xs:token" />
+							</xs:sequence>
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
+<!--				<element name >-->
+<!--					-->
+<!--				</element>-->
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:complexType name="Address">
+	</xs:complexType>
+
+</xs:schema>
