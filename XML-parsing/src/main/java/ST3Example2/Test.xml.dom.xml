@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<st3:Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knure.kharkov.ua/jt/st3example Test.xsd" xmlns:st3="http://knure.kharkov.ua/jt/st3example">
+<st3:Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://knure.kharkov.ua/jt/st3example Test.xsd"
+          xmlns:st3="http://knure.kharkov.ua/jt/st3example">
     <Question>
         <QuestionText>Вопрос 1</QuestionText>
         <Answer>Вариант 1.1</Answer>
