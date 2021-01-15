@@ -1,2 +1,3 @@
 # javaWEB
-separate project on Spring
+separate projects on Spring
+JDBC, xml parsing

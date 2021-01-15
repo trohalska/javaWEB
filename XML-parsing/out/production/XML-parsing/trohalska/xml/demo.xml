@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Namespaces-->
+<ps:book xmlns:ps="http://trohalska.xml/xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema" ps:type="ps:Book">
+    <ps:name>hello</ps:name>
+</ps:book>
+
+<invoke>
+
+<!-- TAGS -->
+    <:книга>Data<tag>text</tag></:книга>
+
+<!-- CDATA -->
+    <description>
+        <![CDATA[<book xmlns="http://xmldemo.trining.epam.com"
+        xmlns:ps="http://epam.com/trining/xmldemo/"
+        type="sdkgjh">
+        <name></name>
+        <description>
+        </description></book>]]>
+    </description>
+
+</invoke>
