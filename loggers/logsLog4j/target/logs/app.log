@@ -1,0 +1,492 @@
+2021-01-20 17:31:38,566 [OFF  ] m.training.Log4jTest [main] OFF 0 
+2021-01-20 17:31:38,570 [FATAL] m.training.Log4jTest [main] FATAL 100 
+2021-01-20 17:31:38,570 [ERROR] m.training.Log4jTest [main] ERROR 200 
+2021-01-20 17:31:38,571 [WARN ] m.training.Log4jTest [main] WARN 300 
+2021-01-20 17:31:38,571 [INFO ] m.training.Log4jTest [main] INFO 400 
+2021-01-20 17:31:38,571 [DEBUG] m.training.Log4jTest [main] DEBUG 500 
+2021-01-20 17:31:38,574 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,576 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,576 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,577 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,577 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,577 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,578 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,580 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,581 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,581 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,582 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,583 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,586 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,586 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,587 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,587 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,587 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,587 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,602 [DEBUG] m.training.Log4jTest [Thread-0] Starting thread execution 
+2021-01-20 17:31:38,602 [ERROR] m.training.Log4jTest [Thread-0] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,606 [DEBUG] m.training.Log4jTest [Thread-0] Thread execution aborted 
+2021-01-20 17:31:38,606 [DEBUG] m.training.Log4jTest [Thread-0] Finishing thread execution 
+2021-01-20 17:31:38,607 [DEBUG] m.training.Log4jTest [Thread-1] Starting thread execution 
+2021-01-20 17:31:38,607 [ERROR] m.training.Log4jTest [Thread-1] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,607 [DEBUG] m.training.Log4jTest [Thread-1] Thread execution aborted 
+2021-01-20 17:31:38,608 [DEBUG] m.training.Log4jTest [Thread-1] Finishing thread execution 
+2021-01-20 17:31:38,608 [DEBUG] m.training.Log4jTest [Thread-2] Starting thread execution 
+2021-01-20 17:31:38,609 [ERROR] m.training.Log4jTest [Thread-2] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,609 [DEBUG] m.training.Log4jTest [Thread-2] Thread execution aborted 
+2021-01-20 17:31:38,609 [DEBUG] m.training.Log4jTest [Thread-2] Finishing thread execution 
+2021-01-20 17:31:38,609 [DEBUG] m.training.Log4jTest [Thread-3] Starting thread execution 
+2021-01-20 17:31:38,610 [ERROR] m.training.Log4jTest [Thread-3] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,610 [DEBUG] m.training.Log4jTest [Thread-3] Thread execution aborted 
+2021-01-20 17:31:38,610 [DEBUG] m.training.Log4jTest [Thread-3] Finishing thread execution 
+2021-01-20 17:31:38,613 [DEBUG] m.training.Log4jTest [Thread-4] Starting thread execution 
+2021-01-20 17:31:38,613 [ERROR] m.training.Log4jTest [Thread-4] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,614 [DEBUG] m.training.Log4jTest [Thread-4] Thread execution aborted 
+2021-01-20 17:31:38,614 [DEBUG] m.training.Log4jTest [Thread-4] Finishing thread execution 
+2021-01-20 17:31:38,615 [DEBUG] m.training.Log4jTest [Thread-5] Starting thread execution 
+2021-01-20 17:31:38,618 [ERROR] m.training.Log4jTest [Thread-5] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,618 [DEBUG] m.training.Log4jTest [Thread-5] Thread execution aborted 
+2021-01-20 17:31:38,618 [DEBUG] m.training.Log4jTest [Thread-5] Finishing thread execution 
+2021-01-20 17:31:38,618 [DEBUG] m.training.Log4jTest [Thread-6] Starting thread execution 
+2021-01-20 17:31:38,619 [ERROR] m.training.Log4jTest [Thread-6] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,620 [DEBUG] m.training.Log4jTest [Thread-6] Thread execution aborted 
+2021-01-20 17:31:38,620 [DEBUG] m.training.Log4jTest [Thread-6] Finishing thread execution 
+2021-01-20 17:31:38,619 [DEBUG] m.training.Log4jTest [Thread-7] Starting thread execution 
+2021-01-20 17:31:38,621 [DEBUG] m.training.Log4jTest [Thread-9] Starting thread execution 
+2021-01-20 17:31:38,622 [ERROR] m.training.Log4jTest [Thread-9] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,622 [DEBUG] m.training.Log4jTest [Thread-8] Starting thread execution 
+2021-01-20 17:31:38,622 [DEBUG] m.training.Log4jTest [Thread-9] Thread execution aborted 
+2021-01-20 17:31:38,622 [DEBUG] m.training.Log4jTest [Thread-9] Finishing thread execution 
+2021-01-20 17:31:38,622 [ERROR] m.training.Log4jTest [Thread-8] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,622 [DEBUG] m.training.Log4jTest [Thread-8] Thread execution aborted 
+2021-01-20 17:31:38,622 [DEBUG] m.training.Log4jTest [Thread-8] Finishing thread execution 
+2021-01-20 17:31:38,620 [ERROR] m.training.Log4jTest [Thread-7] Exception occurs java.lang.Exception: Some exception
+	at com.epam.training.Log4jTest.lambda$testMultiThreadedLog$0(Log4jTest.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-01-20 17:31:38,623 [DEBUG] m.training.Log4jTest [Thread-7] Thread execution aborted 
+2021-01-20 17:31:38,623 [DEBUG] m.training.Log4jTest [Thread-7] Finishing thread execution 
+2021-01-20 17:31:38,621 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,633 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,633 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,634 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,635 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,635 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,636 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,636 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,636 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,637 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,637 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,638 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,638 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,639 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,639 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,639 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,639 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,642 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,643 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,645 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,645 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,645 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,646 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,646 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,646 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,646 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,647 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,647 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,647 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,647 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,648 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,648 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,648 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,648 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,648 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,649 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,649 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,651 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,651 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,651 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,651 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,651 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,652 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,652 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,652 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,653 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,653 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,653 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,653 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,654 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,654 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,654 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,654 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,654 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,655 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,657 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,657 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,657 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,657 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,658 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,658 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,658 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,658 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,660 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,660 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,660 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,660 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,661 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,661 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,661 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,661 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,662 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,662 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,664 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,665 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,665 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,665 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,665 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,666 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,666 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,666 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,673 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,673 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,674 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,674 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,674 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,674 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,675 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,675 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,675 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,675 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,677 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,678 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,678 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,678 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,678 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,679 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,679 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,679 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,679 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,680 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,680 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,680 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,680 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,681 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,681 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,681 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,681 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,681 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,684 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,684 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,684 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,684 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,684 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,685 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,685 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,685 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,685 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,685 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,685 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,686 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,686 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,686 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,686 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,686 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,687 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,687 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,689 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,689 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,690 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,690 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,690 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,690 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,691 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,691 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,691 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,691 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,692 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,692 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,692 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,692 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,692 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,693 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,693 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,693 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,695 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,696 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,696 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,696 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,696 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,696 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,697 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,697 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,697 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,698 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,698 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,698 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,698 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,698 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,698 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,699 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,699 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,699 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,701 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,701 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,701 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,701 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,702 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,702 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,702 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,702 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,702 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,702 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,703 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,703 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,703 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,703 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,703 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,704 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,704 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,704 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,710 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,711 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,711 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,711 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,711 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,712 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,712 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,712 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,712 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,712 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,713 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,713 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,713 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,713 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,713 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,714 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,714 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,714 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,719 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,719 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,719 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,720 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,720 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,720 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,720 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,720 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,721 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,721 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,721 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,721 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,721 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,721 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,721 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,722 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,722 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,722 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,728 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,728 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,728 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,728 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,729 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,729 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,729 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,729 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,729 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,730 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,730 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,730 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,730 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,730 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,730 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,731 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,731 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,731 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,736 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,736 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,736 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,737 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,737 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,737 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,737 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,737 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,737 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,738 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,738 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,738 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,738 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,738 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,738 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,739 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,739 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,739 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,745 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,745 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,745 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,745 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,745 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,745 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,746 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,746 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,746 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,746 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,746 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,747 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,747 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,747 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,747 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,747 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,747 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,747 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,754 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,754 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,755 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,755 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,755 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,755 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,755 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,755 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,755 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,756 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,756 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,756 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,756 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,756 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,756 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,757 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,757 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,757 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,762 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,762 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,762 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,763 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,763 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,763 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,763 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,763 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,763 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,763 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,764 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,764 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,764 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,764 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,764 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,764 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,764 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,764 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,769 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,769 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,769 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,769 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,769 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,769 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,769 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,770 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,770 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,770 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,770 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,770 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,770 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,770 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,770 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,771 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,771 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,771 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,787 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,787 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,787 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,787 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,788 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,788 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,788 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,788 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,788 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,788 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,788 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,788 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,788 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,788 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,789 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,789 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,789 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:31:38,789 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,807 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,807 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,807 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,807 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,808 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,808 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,808 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,808 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,808 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,808 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,808 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,808 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,808 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,809 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,809 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,809 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,809 [DEBUG] a.b.c.X    [main] DEBUG 500 
+2021-01-20 17:32:04,253 [OFF  ] m.training.Log4jTest [main] OFF 0 
+2021-01-20 17:32:04,258 [FATAL] m.training.Log4jTest [main] FATAL 100 
+2021-01-20 17:32:04,258 [ERROR] m.training.Log4jTest [main] ERROR 200 
+2021-01-20 17:32:04,258 [WARN ] m.training.Log4jTest [main] WARN 300 
+2021-01-20 17:32:04,258 [INFO ] m.training.Log4jTest [main] INFO 400 
+2021-01-20 17:32:04,258 [DEBUG] m.training.Log4jTest [main] DEBUG 500 
+2021-01-20 17:33:53,200 [DEBUG] m.training.Log4jTest [main] Message 10 - 20 - 30 
+2021-01-20 17:34:38,173 [INFO ] m.training.Log4jTest [main] Text 
+2021-01-20 17:40:32,442 [OFF  ] m.training.Log4jTest [main] OFF 0 
+2021-01-20 17:40:32,446 [FATAL] m.training.Log4jTest [main] FATAL 100 
+2021-01-20 17:40:32,446 [ERROR] m.training.Log4jTest [main] ERROR 200 
+2021-01-20 17:40:32,446 [WARN ] m.training.Log4jTest [main] WARN 300 
+2021-01-20 17:40:32,446 [INFO ] m.training.Log4jTest [main] INFO 400 
+2021-01-20 17:40:32,447 [DEBUG] m.training.Log4jTest [main] DEBUG 500 
+2021-01-20 17:59:28,936 [OFF  ] m.training.Log4jTest [main] OFF 0 
+2021-01-20 17:59:28,940 [FATAL] m.training.Log4jTest [main] FATAL 100 
+2021-01-20 17:59:28,941 [ERROR] m.training.Log4jTest [main] ERROR 200 
+2021-01-20 17:59:28,941 [WARN ] m.training.Log4jTest [main] WARN 300 
+2021-01-20 17:59:28,941 [INFO ] m.training.Log4jTest [main] INFO 400 
+2021-01-20 17:59:28,942 [DEBUG] m.training.Log4jTest [main] DEBUG 500 
+2021-01-20 17:59:28,945 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:59:28,958 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:59:28,959 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:59:28,959 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:59:28,959 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:59:28,960 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:59:28,961 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:59:28,961 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:59:28,962 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:59:28,962 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:59:28,962 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:59:28,963 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:59:28,964 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:59:28,965 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:59:28,965 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:59:28,965 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:59:28,966 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:59:28,966 [DEBUG] a.b.c.X    [main] DEBUG 500 

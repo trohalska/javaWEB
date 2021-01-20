@@ -1,0 +1,18 @@
+2021-01-20 17:31:38,722 [OFF  ] a.X        [main] OFF 0 
+2021-01-20 17:31:38,728 [FATAL] a.X        [main] FATAL 100 
+2021-01-20 17:31:38,728 [ERROR] a.X        [main] ERROR 200 
+2021-01-20 17:31:38,728 [WARN ] a.X        [main] WARN 300 
+2021-01-20 17:31:38,728 [INFO ] a.X        [main] INFO 400 
+2021-01-20 17:31:38,729 [DEBUG] a.X        [main] DEBUG 500 
+2021-01-20 17:31:38,729 [OFF  ] a.b.X      [main] OFF 0 
+2021-01-20 17:31:38,729 [FATAL] a.b.X      [main] FATAL 100 
+2021-01-20 17:31:38,729 [ERROR] a.b.X      [main] ERROR 200 
+2021-01-20 17:31:38,729 [WARN ] a.b.X      [main] WARN 300 
+2021-01-20 17:31:38,730 [INFO ] a.b.X      [main] INFO 400 
+2021-01-20 17:31:38,730 [DEBUG] a.b.X      [main] DEBUG 500 
+2021-01-20 17:31:38,730 [OFF  ] a.b.c.X    [main] OFF 0 
+2021-01-20 17:31:38,730 [FATAL] a.b.c.X    [main] FATAL 100 
+2021-01-20 17:31:38,730 [ERROR] a.b.c.X    [main] ERROR 200 
+2021-01-20 17:31:38,730 [WARN ] a.b.c.X    [main] WARN 300 
+2021-01-20 17:31:38,731 [INFO ] a.b.c.X    [main] INFO 400 
+2021-01-20 17:31:38,731 [DEBUG] a.b.c.X    [main] DEBUG 500 

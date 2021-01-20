@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" strict="true" name="XMLConfigTest"
+               packages="com.epam.training">
+    <Properties>
+        <Property name="basedir">target/logs</Property>
+        <Property name="filename">${basedir}/app.log</Property>
+        <Property name="rollingfilename">${basedir}/rollingapp.log</Property>
+        <Property name="def_pattern">%d [%-5p] %-10.20c [%t] %m %ex%n</Property>
+    </Properties>
+
+    <Appenders>
+        <!--<Appender type="Console" name="STDOUT">
+            <Layout type="PatternLayout" pattern="%m MDC%X%n"/>
+            <Filters>
+                <Filter type="MarkerFilter" marker="FLOW" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <Filter type="MarkerFilter" marker="EXCEPTION" onMatch="DENY" onMismatch="ACCEPT"/>
+            </Filters>
+        </Appender>-->
+        <Appender type="Console" name="FLOW">
+            <Layout type="PatternLayout" pattern="${def_pattern}"/><!-- class and line number %C{1}.%M %m %ex%n-->
+            <Filters>
+                <!--<Filter type="ThresholdFilter" level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <Filter type="ThresholdFilter" level="WARN" onMatch="ACCEPT" onMismatch="DENY"/>-->
+                <Filter type="MarkerFilter" marker="FLOW" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <Filter type="MarkerFilter" marker="EXCEPTION" onMatch="DENY" onMismatch="ACCEPT"/>
+            </Filters>
+        </Appender>
+        <Appender type="File" name="File" fileName="${filename}">
+            <Layout type="PatternLayout">
+                <Pattern>${def_pattern}</Pattern>
+            </Layout>
+            <!--<Layout type="JsonLayout">
+                <Compact>false</Compact>
+                <Complete>true</Complete>
+            </Layout>-->
+        </Appender>
+        <Appender type="RollingFile" name="RollingFile" fileName="${rollingfilename}"
+                  filePattern="${basedir}/%d{yyyy-MM}/app-%d{yyyy-MM-dd}.%i.log">
+            <Layout type="PatternLayout">
+                <Pattern>${def_pattern}</Pattern>
+            </Layout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1 KB" />
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </Appender>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.epam.training" level="debug" additivity="true">
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="FLOW"/>
+        </Logger>
+
+        <Logger name="a" level="debug" additivity="true">
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Root level="trace">
+            <AppenderRef ref="FLOW"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
