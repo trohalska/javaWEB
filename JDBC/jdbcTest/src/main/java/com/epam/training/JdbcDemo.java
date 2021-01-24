@@ -1,13 +1,9 @@
 package com.epam.training;
 
 import java.sql.Connection;
-import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.List;
-
-import javax.sql.ConnectionPoolDataSource;
-import javax.sql.DataSource;
 
 import com.epam.training.jdbc.DBException;
 import com.epam.training.jdbc.DBManager;
@@ -24,27 +20,27 @@ public class JdbcDemo {
 		testConnection();
 		testConnectionPool();
 		
-//		DBManager dbm = DBManager.getInstance();
+		DBManager dbm = DBManager.getInstance();
 		
-//		List<Product> products;
-//		products = dbm.findAllProducts();
-//		System.out.println(products);
+		List<Product> products;
+		products = dbm.findAllProducts();
+		System.out.println(products);
 
-//		products = dbm.findProductsByName("Fa");
-//		System.out.println(products);
+		products = dbm.findProductsByName("Fa");
+		System.out.println(products);
 		
-//		Product product = Product.createProduct("New Product", 2, 2.50);
-//		System.out.println("Just created " + product);
-//		dbm.addProduct(product);
-//		System.out.println("Just inserted " + product);
-//		products = dbm.findProductsByName("New Product");
-//		System.out.println("Just found " + products);
-//		
-//		dbm.deleteProduct(product.getId());
+		Product product = Product.createProduct("New Product", 2, 2.50);
+		System.out.println("Just created " + product);
+		dbm.addProduct(product);
+		System.out.println("Just inserted " + product);
+		products = dbm.findProductsByName("New Product");
+		System.out.println("Just found " + products);
+
+		dbm.deleteProduct(product.getId());
 		
-//		Receipt receipt = Receipt.createReceipt("Some", 1);
-//		ReceiptProducts[] rp = new ReceiptProducts[] {new ReceiptProducts(1, 2), new ReceiptProducts(2, 1), };
-//		dbm.addReceipt(receipt, rp);
+		Receipt receipt = Receipt.createReceipt("Some", 1);
+		ReceiptProducts[] rp = new ReceiptProducts[] {new ReceiptProducts(1, 2), new ReceiptProducts(2, 1), };
+		dbm.addReceipt(receipt, rp);
 	}
 
 	public static void testConnection() {

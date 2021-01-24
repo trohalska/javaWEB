@@ -1,5 +1,6 @@
 package com.trohalska;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -12,11 +13,19 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+    @Autowired
+    private UserService userService;
+
+//    @Autowired
+//    public SecurityConfig(UserService userService) {this.userService = userService}
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .withUser("user").password("password").roles("USER");
+//         // session auth
+//        auth.inMemoryAuthentication()
+//                .withUser("user").password("password").roles("USER");
+
+        auth.userDetailsService(userService);
     }
 
     @Override

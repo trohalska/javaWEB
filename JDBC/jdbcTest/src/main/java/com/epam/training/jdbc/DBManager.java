@@ -24,7 +24,7 @@ public class DBManager {
 	private static final String PASSWORD = "qwerty";
 	// sslMode: since MySQL 8.0.13.
 	// for MySQL versions earlier 8.0.13 use useSSL property instead
-	private static final String BASE_URL = "jjdbc:postgresql://localhost:5432/shop";
+	private static final String BASE_URL = "jdbc:postgresql://localhost:5432/shop";
 	private static final String URL_PROPERTIES = "sslMode=DISABLED&serverTimezone=UTC";
 	private static final String URL_CREDENTIALS = "user=" + USER + "&password=" + PASSWORD;
 	private static final String URL = BASE_URL + "?" + URL_PROPERTIES + "&" + URL_CREDENTIALS;
