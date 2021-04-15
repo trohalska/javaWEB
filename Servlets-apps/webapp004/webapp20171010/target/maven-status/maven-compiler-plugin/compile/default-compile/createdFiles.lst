@@ -1,0 +1,7 @@
+ua\training\controller\command\Command.class
+ua\training\controller\filters\EncodingFilter.class
+ua\training\controller\Servlet.class
+ua\training\controller\command\Registration.class
+ua\training\controller\command\Exception.class
+ua\training\controller\command\LogOut.class
+ua\training\controller\command\Login.class
